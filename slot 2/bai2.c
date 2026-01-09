@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main(){
-	float a=3.1431268;//khai bao bien va gia tri
-	float b=1.14;
+	float a=5;//khai bao bien va gia tri
+	float b=10.216;
 	float sum = a + b;
-	printf("so dau tien: a=%f \n",a);
-	printf("so tiep theo: b=%f \n",b);
-	printf("tong la: sum=%f",sum);//tong bien
+	printf(" a=%1.0f \n",a);
+	printf(" b=%5.3f \n",b);
+	printf("%1.0f",a);
+	printf("+%5.3f",b);
+	printf("=%5.2f",sum);
 	return 0;//ket thuc chuong trinh
 }
