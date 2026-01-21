@@ -1,27 +1,27 @@
 #include<stdio.h>
 int main(){
 	int N,t;
-	N=950;
-	printf("nhap t = ");
-	scanf("%d",&t);
-	if (t <= 0) {
+	t=950;
+	printf("nhap N = ");
+	scanf("%d",&N);
+	if (N < 0) {
     	printf("sai roi");
 	}
-	else if (t < 100) {
-    	N = N + 0;
-    	printf("So tien dien cua %d kwhs la: %d", t, N);
+	else if (N < 100) {
+    	t = t + 0;
+    	printf("%d kwhs = %d dong", N, t);
 	}
-	else if (t < 150) {
-    	N = N + 300;
-    	printf("So tien dien cua %d kwhs la: %d", t, N);
+	else if (N < 150) {
+    	t = t + 300;
+    	printf("%d kwhs = %d dong", N, t);
 	}
-	else if (t < 200) {
-    	N = N + 400;
-    	printf("So tien dien cua %d kwhs la: %d", t, N);
+	else if (N < 200) {
+    	t = t + 400;
+    	printf("%d kwhs = %d dong", N, t);
 	}
 	else {
-    	N = N + 500;
-    	printf("So tien dien cua %d kwhs la: %d", t, N);
+    	t = t + 500;
+    	printf("%d kwhs = %d dong", N, t);
 	}
 
 	return 0;
