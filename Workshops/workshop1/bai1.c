@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	float x,y,z;
-	printf("nhap km, phut: ")
+	printf("nhap km, phut: ");
 	if (scanf("%f %f", &x, &z) != 2) {
     printf("Nhap sai\n");
     return 0;
