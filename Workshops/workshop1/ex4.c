@@ -3,7 +3,7 @@ int main(){
 	int N,t;
 	printf("nhap N = ");
 	scanf("%d",&N);
-	if (N < 0) {
+	if (N < 0 ) {
     	printf("sai roi");
 	}
 	else if (N < 100) {
@@ -24,6 +24,5 @@ int main(){
 	}
 
 	return 0;
-	//em ko ro de bai do quen chup nen em de tam so vay a.
 	
 }
