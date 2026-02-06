@@ -5,7 +5,7 @@ int main(){
 	printf("Nhap so nguyen n: ");
 	while (scanf("%d",&n)!=1){//nhap dc so nguyen th
 		printf("nhap lai: ");
-		scanf("%d",n);
+		scanf("%d",&n);
 		while(getchar() != '\n');//khac phuc nhap sai
 	}
 	o=n;//bien giu lai de in ra o kq cuoi

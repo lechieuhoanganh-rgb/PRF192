@@ -19,7 +19,7 @@ int main() {
         input[strcspn(input, "\n")] = '\0';
 
         // Dùng strtod để kiểm tra
-        n = strtod(input, &endptr);
+        n = strtod(input, &endptr);//recap defix before stdn
         if (*endptr == '\0') {
             break; // thoát vòng lặp khi nhập đúng
     	}
