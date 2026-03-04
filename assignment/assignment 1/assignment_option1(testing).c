@@ -11,7 +11,7 @@ typedef struct {
     int quantity;
 } Product;
 
-/* ===================== UTILITY FUNCTIONS ===================== */
+/*  UTILITY FUNCTIONS */
 
 void clearBuffer() {
     while (getchar() != '\n');
@@ -32,7 +32,7 @@ int isIDExist(int id) {
     return 0;
 }
 
-/* ===================== WRITE PRODUCTS ===================== */
+/*  WRITE PRODUCTS */
 
 void writeProducts() {
     FILE *file = fopen(FILENAME, "wb");
@@ -75,7 +75,7 @@ void writeProducts() {
     printf("\nProducts have been written successfully.\n");
 }
 
-/* ===================== APPEND PRODUCTS ===================== */
+/*  APPEND PRODUCTS= */
 
 void appendProducts() {
     FILE *file = fopen(FILENAME, "ab");
@@ -118,7 +118,7 @@ void appendProducts() {
     printf("\nProducts have been appended successfully.\n");
 }
 
-/* ===================== READ PRODUCTS ===================== */
+/*  READ PRODUCTS= */
 
 void readProducts() {
     FILE *file = fopen(FILENAME, "rb");
@@ -143,7 +143,7 @@ void readProducts() {
     fclose(file);
 }
 
-/* ===================== MODIFY PRODUCT ===================== */
+/*  MODIFY PRODUCT  */
 
 void modifyProduct() {
     FILE *file = fopen(FILENAME, "rb+");
@@ -191,7 +191,7 @@ void modifyProduct() {
     fclose(file);
 }
 
-/* ===================== MAIN MENU ===================== */
+/* MAIN MENU */
 
 int main() {
     int choice;
