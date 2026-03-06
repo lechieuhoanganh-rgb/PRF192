@@ -24,36 +24,29 @@ void findRowMin(int matrix[ROWS][COLS], int result[COLS]) {
                 min = matrix[i][j];
             }
         }
-
-        result[i] = min;}
+        result[i] = min;
+    }
 }
-
 /**
  * TODO: Implement the function to display the result array.
  */
 void displayResults(int result[ROWS]) {
-
     for(int i = 0; i < ROWS; i++) {
         printf("%d\n", result[i]);
     }
-    
 }
 int main() {
   system("cls");
   printf("INPUT:\n");	
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
-
-    int rows, cols;
-    scanf("%d %d", &rows, &cols);
-
     int a[ROWS][COLS];
 
-    for(int i = 0; i < rows; i++) {
-        for(int j = 0; j < cols; j++) {
+    for(int i = 0; i < ROWS; i++) {
+        for(int j = 0; j < COLS; j++) {
             scanf("%d", &a[i][j]);
         }
     }
-
+    
     int result[ROWS];
     findRowMin(a, result);	
   	
