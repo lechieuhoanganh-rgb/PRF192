@@ -8,7 +8,7 @@ int main(){
 
     for(i=0;s[i]!='\0';i++)
         if(s[i]!=' ' && (i==0 || s[i-1]==' '))
-            count++;
+            count++;//quen ngoac cho chac r-_-
 
     printf("%d",count);
 }

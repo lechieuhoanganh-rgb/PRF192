@@ -20,9 +20,9 @@ int main() {
     }
 
     printf("\nPhan loai va dem:\n");
-    printf("%d\n", digit);
-    printf("%d\n", letter);
-    printf("%d", other);
+    printf("So: %d\n", digit);
+    printf("Tu: %d\n", letter);
+    printf("Ki tu khac: %d", other);
 
     return 0;
 }
