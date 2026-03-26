@@ -1,1 +1,7 @@
+1001,Ng,Hong,2.03
+1001,Ng,Hong,2.03
 22,A,L,3.20
+1002,Hao,Nam chi,4.20
+1001,Ng hong loc,andr,5.00
+1004,ha,chi,3.00
+23,Ng,hog,2.03
